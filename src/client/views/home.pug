@@ -1,0 +1,18 @@
+extends templates/layout.pug
+
+block contents
+    section#title 
+        h1 Exp Manager Test Page
+    hr
+    section#system-status
+        h2 System Status 
+        ul 
+            li#socketio
+                span Main Communication: 
+                span#socketio-status
+            li#socketio-id
+                span Socket ID: 
+                span#socketio-id-status
+            li#latency 
+                span Latency: 
+                span#latency-status

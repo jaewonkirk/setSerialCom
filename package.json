@@ -1,0 +1,49 @@
+{
+  "name": "setserialcom",
+  "version": "1.0.0",
+  "description": "Setting serial communication via nodeJS, socketIO, serialportjs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "babel-node test/test.js",
+    "dev": "gulp dev",
+    "server": "nodemon --exec babel-node src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaewonkirk/setSerialCom.git"
+  },
+  "author": "Jaewon Kirk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaewonkirk/setSerialCom/issues"
+  },
+  "homepage": "https://github.com/jaewonkirk/setSerialCom#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "serialport": "^10.5.0",
+    "socket.io": "^4.5.4",
+    "socket.io-client": "^4.5.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2",
+    "@babel/register": "^7.18.9",
+    "babelify": "^10.0.0",
+    "del": "^7.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-image": "^6.3.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^8.0.0",
+    "uglifyify": "^5.0.2"
+  }
+}
